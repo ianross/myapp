@@ -143,12 +143,8 @@
     }
 
     function StartCamera() {
-        navigator.camera.getPicture(onSuccess, onFail, { quality: 75,
-            destinationType: Camera.DestinationType.FILE_URI,
-            encodingType: Camera.encodingType.JPEG,
-            targetWidth: 100,
-            targetHeight: 100
-        });
+	navigator.camera.getPicture(onSuccess, onFail, { quality: 50, 
+    destinationType: Camera.DestinationType.FILE_URI }); 
     }
 
     function onSuccess(imageURI) {
