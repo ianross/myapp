@@ -12,9 +12,9 @@
     </head>
 <body>
 
+<script src="js/db.js"></script>
+
 <script>
-    var Students = [{name: "Tom Brady", images: [], notes: []},{name: "Hubert Farnsworth", images: [], notes: []}];
-    var CurrentStudent = {name: "No Student Selected", images: [], notes: []};
 
     //Types of update... remove current then add for all?
     var UpdateContent = [];
@@ -116,11 +116,9 @@
     function AddStudent() {
         var newStudent = $('#Sinput').val();
         if(newStudent != "") {
-            Students.push({name: newStudent, images: [], notes: []});
-            $('#list').append('<li style="text-align:center" data-theme="c" class="ui-li ui-li-static ui-body-c">' + newStudent + '</li>');
+            CallbackData = newStudent;
+            AddValueToDB(newStudent, "","");
         }
-
-        Application.UpdateAllContent();
     }
 
     function EditStudent(e) {
@@ -129,6 +127,7 @@
         Application.UpdateStudentsImages();
         location.href="#four";
     }
+
     /*
     Camera Functionality
         - Init - Setup current student to prep for camera
@@ -231,8 +230,6 @@
             <li data-theme="e" style="text-align:center"> My Students </li>
         </ul>
 
-        <script> GenerateList(); </script>
-
         <div class="ui-grid-b" style="margin-top:30px">
             <div class="ui-block-a"></div>
             <div class="ui-block-b"><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back</a></div>
@@ -258,8 +255,6 @@
         <ul id="editlist" data-role="listview" data-theme="b" style="margin-top:10px">
             <li data-theme="e" style="text-align:center"> My Students </li>
         </ul>
-
-        <script> GenerateEditList(); </script>
 
         <div class="ui-grid-b" style="margin-top:30px">
             <div class="ui-block-a"></div>
@@ -340,8 +335,6 @@
             <li data-theme="e" style="text-align:center"> My Students </li>
         </ul>
 
-        <script> GenerateDeleteList(); </script>
-
         <div class="ui-grid-b" style="margin-top:30px">
             <div class="ui-block-a"></div>
             <div class="ui-block-b"><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back</a></div>
@@ -372,9 +365,6 @@
             <div class="ui-block-b"><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Back</a></div>
         </div><!-- /grid-b -->
 
-    <script>
-        GenerateCaptureImageList();
-    </script>
     </div><!-- /content -->
 
     <div data-role="footer" data-theme="c">
@@ -383,7 +373,7 @@
 </div><!-- /page captureimage -->
 
 <script src="js/Application.js"></script>
-
+<script src="js/SyncDB.js"></script>
 
 
 </body>

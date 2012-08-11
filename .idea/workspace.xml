@@ -22,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.59725684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/Application.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveMethods.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RemoveMethods.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/js/RemoveMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="32" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.20214032">
               <folding />
             </state>
           </provider>
@@ -52,8 +43,37 @@
       <file leaf-file-name="EditMethods.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/EditMethods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="105" selection-end="119" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="-20.333334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/js/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="306" selection-end="359" vertical-scroll-proportion="-9.52">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncDB.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/js/SyncDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="32" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc;n#SyncDB#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,15 +90,18 @@
       <list>
         <option value="$PROJECT_DIR$/assets/www/css/themes/default/jquery.mobile-1.1.1.css" />
         <option value="$PROJECT_DIR$/assets/www/js/app_AddStudent.js" />
-        <option value="$PROJECT_DIR$/assets/www/js/EditMethods.js" />
-        <option value="$PROJECT_DIR$/assets/www/js/RemoveMethods.js" />
         <option value="$PROJECT_DIR$/assets/www/js/Application.js" />
+        <option value="$PROJECT_DIR$/assets/www/js/EditMethods.js" />
+        <option value="$PROJECT_DIR$/assets/www/js/SyncDB.js" />
+        <option value="$PROJECT_DIR$/assets/www/js/db.js" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/js/RemoveMethods.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -272,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1696" height="1026" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,22 +379,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" />
+        <state line="24" column="5" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/RemoveMethods.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/SyncDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="32" selection-end="82" vertical-scroll-proportion="0.0" />
+        <state line="35" column="32" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc;n#SyncDB#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/EditMethods.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="105" selection-end="119" vertical-scroll-proportion="0.0" />
+        <state line="14" column="20" selection-start="306" selection-end="359" vertical-scroll-proportion="-9.52">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.59725684">
+        <state line="70" column="0" selection-start="2469" selection-end="2469" vertical-scroll-proportion="-20.333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/EditMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/RemoveMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.20214032">
           <folding />
         </state>
       </provider>

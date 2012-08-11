@@ -1,10 +1,10 @@
 function RemoveStudent(e){
 
     var array_index = e.target.getAttribute("number");
-    if(CurrentStudent == Students[array_index]) { CurrentStudent = null; }
-    Students.splice(array_index,1);
+    if(CurrentStudent == Students[array_index]) { CurrentStudent = {name: "No Student Selected", images: [], notes: []}; }
 
-     Application.UpdateAllContent();
+    CallbackData = [Students[array_index], array_index];
+    RemoveStudentFromDB(CallbackData[0].name);
 }
 
 
